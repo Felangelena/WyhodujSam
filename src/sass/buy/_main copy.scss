@@ -1,0 +1,266 @@
+.steps {
+  &__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    background: rgba(#fff, 0.8);
+    border: #61a47d 1px solid;
+    border-radius: 26px;
+    padding: 35px 32px 30px 30px;
+    font-size: 17px;
+  }
+  &__subtitle {
+    color: #3d3d3d;
+    font-weight: 600;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+    &_center {
+      text-align: center;
+    }
+    &_green {
+      color: #61a47d;
+      margin-left: 10px;
+    }
+    &_big {
+      text-align: center;
+      color: #61a47d;
+      margin-top: 30px;
+      font-size: 25px;
+      font-weight: 600;
+    }
+  }
+  &__radiobox {
+    display: flex;
+    flex-direction: row;
+    color: #61a47d;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 70px;
+  }
+}
+
+.wizard > .steps {
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  background: #fff;
+  border-radius: 30px;
+  border: #61a47d solid 1px;
+  width: 1018px;
+  height: 60px;
+}
+
+.wizard > .steps > ul > li {
+  width: 25%;
+}
+
+.wizard > .steps > ul > li,
+.wizard > .actions > ul > li {
+  float: left;
+}
+
+.wizard > .steps a,
+.wizard > .steps a:hover,
+.wizard > .steps a:active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 305px;
+  height: 59px;
+  text-decoration: none;
+}
+
+.addInfo {
+  cursor: pointer;
+  color: #61a47d;
+  font-size: 20px;
+  font-family: Arial;
+  border: #61a47d 1px solid;
+  border-radius: 100%;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.localization {
+  &__info {
+    width: 360px;
+    margin-right: 100px;
+  }
+  &__gallery {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    &__wrapper {
+      display: flex;
+      flex-flow: row wrap;
+      width: 480px;
+    }
+  }
+
+  &__photo {
+    width: 233px;
+    margin-right: 7px;
+    margin-bottom: 6px;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+label.container {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 19px;
+  margin-bottom: 25px;
+  margin-right: 105px;
+}
+
+.label__descr {
+  margin-left: 40px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: -3px;
+  left: 0px;
+  height: 32px;
+  width: 32px;
+  border: 2px solid #61a47d;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #61a47d;
+}
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 4px;
+  top: 4px;
+  background-color: #61a47d;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.container input:checked ~ .label__descr {
+  color: #61a47d;
+}
+
+.localization__descr {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  &_free {
+    color: #81bc60;
+  }
+}
+
+.diagram__img {
+  margin-top: 15px;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.diagram__img__container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  transform: scale(-1, -1);
+}
+.diagram__img__container > .diagram__img__wrapper {
+  position: relative;
+}
+
+.wizard > .actions {
+  bottom: 90px;
+  left: 250px;
+}
+
+.wizard > .actions a[href="#previous"] {
+  background: #7d7d7d;
+}
+
+.numFamily {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &__input {
+    text-align: center;
+    color: #61a47d;
+    width: 65px;
+    height: 36px;
+    padding: 15px;
+    border: 1px solid #707070;
+    border-radius: 18px;
+    margin-left: 22px;
+  }
+}
+
+.wizard > .content > .body {
+  width: 1000px;
+  height: 100%;
+}
+
+.area {
+  font-size: 18px;
+  font-weight: 600;
+  color: #61a47d;
+  text-align: center;
+}
+
+.gratingsImg {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.summary {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 560px;
+  min-height: 165px;
+  font-size: 18px;
+  line-height: 35px;
+  span {
+    color: #61a47d;
+  }
+}

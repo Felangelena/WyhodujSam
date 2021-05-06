@@ -1,0 +1,131 @@
+@media (max-width: 1023px) {
+  .deliver__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .deliver__form {
+    width: 722px;
+    padding: 22px 40px 60px 40px;
+  }
+
+  .form {
+    &__title {
+      font-size: 26px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .form__wrapper label {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .form__wrapper label span.icon-IKONA-PACZKA-CZARNA {
+    margin-left: 100px;
+    font-size: 90px;
+  }
+
+  .text {
+    font-size: 15px;
+    margin-left: 35px;
+    width: 300px;
+  }
+
+  .design {
+    margin-left: 15px;
+    width: 46px;
+    height: 46px;
+  }
+
+  .search__text {
+    display: none;
+  }
+
+  .search__icon {
+    display: block;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+
+  .search__field {
+    width: 170px;
+    font-size: 16px;
+    height: 30px;
+  }
+
+  .vegetables {
+    &__round {
+      width: 100px;
+      height: 100px;
+      margin-right: 40px;
+
+      img {
+        display: block;
+        width: 90%;
+      }
+    }
+
+    &__name {
+      font-size: 26px;
+      font-weight: 600;
+      margin-right: 135px;
+    }
+
+    &__count {
+      font-size: 26px;
+      font-weight: 600;
+      margin-right: 60px;
+    }
+
+    &__minus {
+      margin-right: 15px;
+    }
+  }
+
+  .round_green {
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+
+    .icon-LUPKA {
+      font-size: 32px;
+    }
+
+    .icon-LUPKA .path1::before {
+      color: #fff;
+    }
+
+    .icon-LUPKA .path2::before {
+      color: #fff;
+    }
+  }
+
+  .btn__submit {
+    width: 95%;
+    height: 88px;
+    margin: 34px auto 0px auto;
+    border-radius: 44px;
+    font-size: 32px;
+  }
+
+  .deliver__summary {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 722px;
+    height: 475px;
+    margin-left: 0px;
+    padding: 30px 50px 10px 50px;
+
+    &__title {
+      font-size: 28px;
+    }
+  }
+
+  .diagram__img {
+    margin-top: 40px;
+    width: 305px;
+  }
+}

@@ -1,0 +1,73 @@
+.sidenav {
+  height: 100%;
+  width: 355px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(#166449, #68c28e);
+  overflow-x: hidden;
+  ul {
+    list-style: none;
+  }
+}
+.logo {
+  margin: 28px 15px 100px 27px;
+  width: 220px;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.menu {
+  span {
+    display: block;
+    margin-right: 18px;
+    width: 15px;
+    font-size: 22px;
+  }
+  &__title {
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: 53px;
+    &_sub {
+      margin-bottom: 14px;
+      margin-top: 70px;
+    }
+  }
+  &__link {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    width: 355px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.7;
+    padding: 12px 0 12px 53px;
+    &_active {
+      opacity: 1;
+      border-left: 4px solid #fff;
+      background: rgba(#fff, 0.2);
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &__profile {
+    margin-bottom: 65px;
+  }
+}
+
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburger {
+  display: none;
+}

@@ -1,0 +1,76 @@
+@media (max-width: 1023px) {
+  .contact__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__text {
+    width: 630px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    margin-top: 44px;
+    font-size: 18px;
+  }
+
+  .contact__subtitle {
+    width: 400px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 29px;
+  }
+
+  .contact__text,
+  .contact__subtitle {
+    margin-left: 28px;
+  }
+
+  .contact__form {
+    width: 715px;
+    margin-bottom: 30px;
+  }
+
+  .form__title {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+
+  .input__box label {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .input__box {
+    width: 595px;
+  }
+
+  .btn__submit {
+    width: 448px;
+    height: 82px;
+    margin: 45px auto 25px auto;
+    font-size: 28px;
+    border-radius: 41px;
+  }
+
+  .contact__info {
+    margin-left: 0px;
+    width: 715px;
+    margin-bottom: 50px;
+    padding: 50px 50px;
+
+    &__title {
+      font-size: 36px;
+      margin-bottom: 57px;
+    }
+
+    &__subtitle {
+      font-size: 32px;
+      font-weight: 300;
+    }
+
+    &__descr {
+      font-size: 32px;
+      margin-bottom: 100px;
+    }
+  }
+
+}

@@ -1,0 +1,26 @@
+main {
+  margin-left: 355px;
+  padding-left: 50px;
+  background: url("../img/bg/warzywadesktop.svg") no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  color: #3d3d3d;
+  font-size: 18px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #4c756d;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.noScroll {
+  overflow: hidden;
+}

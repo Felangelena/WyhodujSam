@@ -1,0 +1,61 @@
+@media (max-width: 767px) {
+  .checkImg {
+    width: 97px;
+    margin-top: 35px;
+  }
+
+  h2.thnx {
+    font-size: 12px;
+    margin-top: 27px;
+  }
+
+  .orderNum {
+    width: 300px;
+    font-size: 12px;
+    margin-top: 28px;
+    line-height: 18px;
+  }
+
+  .orderSum {
+    width: 350px;
+    min-height: 200px;
+    padding: 23px 34px 70px 23px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .list {
+
+    &__item {
+      padding-top: 12px;
+      font-size: 10px;
+    }
+
+    &__img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .total {
+    width: 350px;
+    height: 100px;
+    padding: 1px 20px 0 14px;
+
+    &__item {
+      font-size: 9px;
+
+      &_big {
+        margin-top: 17px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .contact {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}

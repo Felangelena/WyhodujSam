@@ -1,0 +1,284 @@
+@media (max-width: 767px) {
+  .garden__tabs {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .garden__tab {
+    font-size: 11px;
+    margin: 0 12px;
+    font-size: 10px;
+  }
+
+  .diagrams__tabs {
+    top: -90px;
+    left: -47px;
+  }
+
+  .garden__content {
+    padding: 10px;
+  }
+
+  .diagrams__content img {
+    width: 300px;
+  }
+
+  .diagrams {
+    width: 300px;
+  }
+
+  .diagrams__tab {
+    font-size: 9px;
+  }
+
+  h2.title {
+    margin-top: 30px;
+    margin-left: 0;
+    font-size: 13px;
+  }
+
+  .list {
+    width: 347px;
+    border-radius: 16px;
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+  .arrow {
+    font-size: 20px;
+  }
+
+  .list_crops {
+    margin-left: -13px;
+  }
+
+  .crops {
+    width: 347px;
+    border-radius: 25px;
+    padding-left: 12px;
+  }
+
+  .crops__box {
+    margin-top: 12px;
+  }
+
+  .search__vegetable {
+    width: 325px;
+    height: 28px;
+    margin-top: 13px;
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+
+  .vegatable__info {
+    width: 325px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+  }
+
+  .vegatable__info__img {
+    width: 30px;
+    margin-left: 10px;
+  }
+
+  .vegatable__info__descr {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .slider {
+    width: 218px;
+    height: 5px;
+    margin-bottom: 16px;
+  }
+
+  .slider::-webkit-slider-thumb,
+  .slider::-moz-range-thumb {
+    width: 22px;
+    /* Set a specific slider handle width */
+    height: 22px;
+    /* Slider handle height */
+  }
+
+  .numCrops__input {
+    width: 46px;
+    height: 25px;
+    padding: 4px 14px;
+    margin-left: 8px;
+  }
+
+  .diagram {
+    flex-direction: column;
+    left: -76px;
+    width: 155px;
+    height: 165px;
+    margin-top: 28px;
+    font-size: 12px;
+    line-height: 20px;
+
+    &__descr {
+      margin-bottom: 10px;
+    }
+
+    &__img {
+      margin-top: 0px;
+      width: 70px;
+      margin-left: 0px;
+    }
+  }
+
+  .diagrams__tabs {
+    top: -80px;
+  }
+
+  .diagrams__tab {
+    margin-right: 15px;
+  }
+
+  .statistics {
+    top: 217px;
+    right: 10px;
+    width: 157px;
+    height: 165px;
+    padding: 4px;
+
+    &__text {
+      &__title {
+        font-size: 12px;
+        margin-top: 8px;
+        padding: 1px;
+      }
+
+      &__info {
+        font-size: 11px;
+        margin-top: 6px;
+
+        span {
+          font-size: 11px;
+          line-height: 12px;
+        }
+      }
+    }
+  }
+
+  .btn__controls {
+    margin-top: 28px;
+    margin-bottom: 22px;
+  }
+
+  .btn__garden {
+    width: 127px;
+    height: 44px;
+    padding: 13px 45px;
+    font-size: 12px;
+  }
+
+  .garden__content {
+    margin-top: 0px;
+  }
+
+  .dropbtn {
+    height: 40px;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .dropdown-content a {
+    font-size: 12px;
+  }
+
+  h2.title_shedule,
+  h2.title_deliver {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .schedule__descr {
+    margin-top: 18px;
+    width: 325px;
+
+    &__item {
+      margin-right: 14px;
+      margin-bottom: 8px;
+    }
+  }
+
+  .schedule__circle {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+  }
+
+  .schedule__text {
+    font-size: 9px;
+  }
+
+  .filters {
+    left: 0px;
+    top: 0px;
+    width: 330px;
+  }
+
+  .filterVegetable {
+    margin-right: 22px;
+  }
+
+  .filter {
+    font-size: 9px;
+    width: 150px;
+    height: 30px;
+    padding: 5px 10px;
+  }
+
+  .filters .arrow {
+    font-size: 16px;
+  }
+
+  .filterVeg-content,
+  .filterMon-content {
+    width: 150px;
+    border-radius: 20px;
+  }
+
+  .filterVeg-content a,
+  .filterMon-content a {
+    font-size: 9px;
+    padding: 12px 10px;
+  }
+
+  .calendar {
+    width: 350px;
+    margin-top: 10px;
+  }
+
+  .calendar__header__years,
+  .calendar__header__months,
+  .calendar__item {
+    font-size: 3px;
+    height: 12px;
+  }
+
+  .calendar__header__months__item {
+    margin-top: -0.1px;
+    width: 6.3%;
+  }
+
+  .calendar__header__years,
+  .calendar__header__years__item,
+  .calendar__header__months,
+  .calendar__header__months__empty,
+  .calendar__header__months__item,
+  .calendar__item,
+  .calendar__item__num,
+  .calendar__item__name,
+  .calendar__item__quarter {
+    border: 0.1px solid #707070;
+    margin-bottom: -0.1px;
+  }
+
+  .calendar__item__quarter {
+    width: 1.57%;
+  }
+}

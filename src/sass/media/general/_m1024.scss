@@ -1,0 +1,138 @@
+@media (max-width: 1880px) {
+
+  main {
+    margin-left: 195px;
+    padding-left: 30px;
+  }
+
+  h1 {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+
+  .sidenav {
+    width: 190px;
+  }
+
+  .logo {
+    margin: 16px 15px 55px 13px;
+
+    img {
+      width: 130px;
+    }
+  }
+
+  .menu__title {
+    font-size: 9px;
+    margin-left: 26px;
+
+    &_sub {
+      margin-top: 48px;
+    }
+  }
+
+  .menu {
+    &__link {
+      font-size: 10px;
+      padding: 12px 0 12px 20px;
+
+      img {
+        margin-right: 5px;
+        width: 15px;
+      }
+
+      span {
+        font-size: 15px;
+        margin-right: 6px;
+      }
+    }
+  }
+
+  .topnav {
+    height: 60px;
+    margin-left: 195px;
+  }
+
+  .search {
+    width: 35%;
+
+    &__input {
+      height: 28px;
+      width: 200px;
+      font-size: 12px;
+    }
+  }
+
+  .search-field {
+    left: 225px;
+  }
+
+  .search-field_active {
+    top: 15px;
+  }
+
+  .search-btn-arrow {
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+  }
+
+  .icon-LUPKA {
+    font-size: 17px;
+  }
+
+  .weather {
+    width: 270px;
+    padding: 0 5px;
+
+    .box {
+      padding: 3px 3px;
+    }
+
+    .title {
+      width: 45%;
+      font-size: 9px;
+      line-height: 1.4;
+    }
+
+    .temperature {
+      font-size: 18px;
+      width: 25%;
+    }
+
+    span {
+      font-size: 10px;
+    }
+  }
+
+  .imgWind,
+  .imgUmbrella {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
+
+  .cart {
+    padding: 0;
+
+    a {
+      font-size: 10px;
+
+      span.icon-KOSZYK {
+        font-size: 17px;
+        margin-right: 13px;
+      }
+    }
+  }
+
+  .btn__submit {
+    width: 225px;
+    height: 40px;
+    margin: 25px auto 25px auto;
+    font-size: 16px;
+  }
+
+  .modal__btn {
+    display: none;
+  }
+}

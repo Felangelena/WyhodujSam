@@ -1,0 +1,40 @@
+.contact__form {
+  width: 697px;
+  background: rgba(#fff, 0.8);
+  border: #61a47d 1px solid;
+  border-radius: 26px;
+  padding: 30px 50px 10px 50px;
+}
+.form {
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #61a47d;
+    margin-bottom: 33px;
+  }
+}
+.input__box {
+  display: flex;
+  flex-direction: column;
+  width: 530px;
+  border-bottom: 1px solid #707070;
+  margin-bottom: 25px;
+  label {
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 13px;
+  }
+  input {
+    font-size: 16px;
+    border: 0px;
+    padding-bottom: 10px;
+    &::placeholder {
+      opacity: 0.5;
+      font-style: italic;
+    }
+  }
+  textarea {
+    height: 80px;
+    border: 0px;
+  }
+}

@@ -1,0 +1,246 @@
+@media (max-width: 767px) {
+  main {
+    margin-top: 70px;
+  }
+
+  h1 {
+    margin: 18px 0 0 14px;
+    font-size: 17px;
+  }
+
+  .hamburger {
+    left: 23px;
+    top: 19px;
+    width: 27px;
+    height: 21px;
+
+    span {
+      height: 2px;
+      margin-bottom: 5px;
+    }
+
+    &_active {
+      span {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .menu {
+    width: 100%;
+    padding: 60px 0 0 0;
+
+    &__title {
+      font-size: 18px;
+    }
+
+    &__link {
+      font-size: 14px;
+      padding: 10px 0 10px 0px;
+
+      span {
+        margin-right: 15px;
+        width: 20px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .sidenav {
+    height: 130px;
+  }
+
+  .logo {
+    top: 15px;
+
+    img {
+      width: 150px;
+      margin: 0 auto;
+    }
+  }
+
+  .search {
+    top: 16px;
+    right: 65px;
+  }
+
+  .icon-LUPKA {
+    font-size: 20px;
+  }
+
+  .search__input {
+    height: 40px;
+    width: 100vw;
+    padding: 0 30px;
+    font-size: 10px;
+  }
+
+  .search-btn-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: -40px;
+  }
+
+  .search-field {
+    left: -20px;
+  }
+
+  .search-field_active {
+    top: 45px;
+    box-shadow: 0 3px 6px #00000029;
+  }
+
+  .cart a span.icon-KOSZYK {
+    font-size: 24px;
+  }
+
+  .cart {
+    top: 15px;
+    right: 10px;
+  }
+
+  .btn__submit {
+    width: 300px;
+    height: 44px;
+    margin: 34px auto 0px auto;
+    border-radius: 35px;
+    font-size: 16px;
+  }
+
+  .weather {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .weather .box {
+    width: 15%;
+    margin-right: 0px;
+  }
+
+  .weather .title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: inherit;
+    margin-top: -35px;
+    font-size: 10px;
+  }
+
+  .weather .temperature {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+
+  .weather span {
+    font-size: 8px;
+    margin-right: 10px;
+  }
+
+  .weather .icon img {
+    width: 40px;
+  }
+
+  .modalWins {
+    top: 130px;
+  }
+
+  .modal__btn {
+    padding: 7px 0px;
+    font-size: 14px;
+
+    &:hover {
+      font-weight: 600;
+    }
+
+    .icon {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+  }
+
+  .modal__btn::after {
+    font-size: 20px;
+    right: 30px;
+  }
+
+  .modal {
+    height: calc(100% - 166px);
+    padding: 0 50px 50px 50px;
+  }
+
+  #infoFlower,
+  #infoCameras {
+    padding: 0;
+  }
+
+  .modal {
+
+    &__descr {
+      margin-right: 0px;
+
+      &_camera {
+        margin-top: 46px;
+      }
+
+      &__title {
+        font-size: 21px;
+        margin-top: 0px;
+      }
+
+      &__text {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+
+    &__item {
+      flex-flow: column nowrap;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    &__img {
+      margin-top: 14px;
+      width: 260px;
+    }
+
+    &__label {
+      margin-top: 25px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+  }
+
+  .design {
+    width: 30px;
+    height: 30px;
+  }
+
+  .modal__img_camera {
+    width: 260px;
+  }
+
+  .menu_active::before {
+    height: 60px;
+    background: linear-gradient(#166449, #1d6c4f);
+  }
+
+  .menu__title::after {
+    line-height: 1;
+    font-size: 25px;
+  }
+
+  .diagrams__tab {
+    line-height: 12px;
+  }
+
+  .diagrams__content {
+    margin-top: -60px;
+  }
+}

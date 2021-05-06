@@ -1,0 +1,53 @@
+.modal_win {
+  position: absolute;
+  overflow: visible;
+  top: 300px;
+  left: 1250px;
+  width: 400px;
+  min-height: 350px;
+  background: #61a47d;
+  border-radius: 26px;
+  padding: 25px 50px 45px 70px;
+  color: #fff;
+
+  .addInfo {
+    cursor: default;
+    color: #fff;
+    border: #fff 1px solid;
+    margin-left: 0px;
+    position: relative;
+    left: -50px;
+  }
+
+  .steps__subtitle {
+    color: #fff;
+    margin-top: -30px;
+  }
+
+  .btn__understand {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 149px;
+    height: 40px;
+    background: #fff;
+    border-radius: 20px;
+    color: #61a47d;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 40px;
+  }
+}
+
+#infoTypeFamily,
+#infoGarden,
+#infoNumFamily,
+#gardenArea,
+#payment {
+  display: none;
+}

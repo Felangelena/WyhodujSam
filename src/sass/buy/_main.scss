@@ -1,0 +1,325 @@
+.wrapper {
+  background: #FFF;
+  border: 1px solid #61A47D;
+  border-radius: 26px;
+}
+
+.localization {
+  width: 1017px;
+  min-height: 747px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 45px 32px 32px 69px;
+
+  &__box {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  &__info {
+    width: 343px;
+    margin-right: 100px;
+  }
+
+  &__gallery {
+    display: flex;
+    flex-direction: column;
+
+    &__box {
+      display: flex;
+      flex-flow: row wrap;
+      width: 480px;
+    }
+  }
+
+  &__photo {
+    width: 233px;
+    margin-right: 7px;
+    margin-bottom: 6px;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &__descr {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+
+    &_free {
+      color: #81bc60;
+    }
+  }
+}
+
+.btn {
+  width: 213px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.5s;
+
+  &:hover {
+    background: #fff;
+    transition: all 0.5s;
+  }
+}
+
+.nextBtn {
+  background: #ff9748;
+  border: 1px solid #ff9748;
+
+  &:hover {
+    color: #ff9748;
+  }
+}
+
+.prevBtn {
+  background: #6d6d6d;
+  border: 1px solid #6d6d6d;
+  margin-right: 28px;
+
+  &:hover {
+    color: #6d6d6d;
+  }
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto 0 auto;
+}
+
+.localization .controls {
+  margin-top: 50px;
+}
+
+.demand .controls {
+  margin-top: 100px;
+}
+
+.dimensions .controls {
+  margin-top: 124px;
+}
+
+.congratulations .controls {
+  margin-top: 114px;
+}
+
+.steps {
+  &__subtitle {
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+
+    &_center {
+      text-align: center;
+    }
+
+    &_green {
+      color: #61a47d;
+      margin-left: 10px;
+    }
+
+    &_big {
+      text-align: center;
+      color: #61a47d;
+      margin-top: 30px;
+      font-size: 25px;
+      font-weight: 600;
+    }
+  }
+
+  &__radiobox {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 70px;
+  }
+}
+
+.addInfo {
+  cursor: pointer;
+  color: #61a47d;
+  font-size: 20px;
+  font-family: Arial;
+  border: #61a47d 1px solid;
+  border-radius: 100%;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+// checkmarks
+label.container {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 19px;
+  margin-bottom: 25px;
+  margin-right: 105px;
+}
+
+.label__descr {
+  margin-left: 40px;
+  color: #61a47d;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: -3px;
+  left: 0px;
+  height: 32px;
+  width: 32px;
+  border: 2px solid #61a47d;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+  background-color: #61a47d;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+  background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 4px;
+  top: 4px;
+  background-color: #61a47d;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.container input:checked~.label__descr {
+  color: #61a47d;
+}
+
+// Circle diagram
+.diagram__img {
+  margin-top: 15px;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.diagram__img__container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  transform: scale(-1, -1);
+}
+
+.diagram__img__container>.diagram__img__wrapper {
+  position: relative;
+}
+
+.demand {
+  width: 776px;
+  min-height: 729px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 50px 50px 50px 50px;
+}
+
+.numFamily {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__input {
+    text-align: center;
+    color: #61a47d;
+    width: 65px;
+    height: 36px;
+    padding: 15px;
+    border: 1px solid #707070;
+    border-radius: 18px;
+    margin-left: 22px;
+  }
+}
+
+.dimensions {
+  width: 776px;
+  min-height: 711px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 56px 60px 47px 60px;
+}
+
+.area {
+  font-size: 18px;
+  font-weight: 600;
+  color: #61a47d;
+  text-align: center;
+}
+
+.gratingsImg {
+  text-align: center;
+  margin: 20px auto;
+  width: 255px;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.summary {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 560px;
+  min-height: 165px;
+  font-size: 18px;
+  line-height: 35px;
+
+  span {
+    color: #61a47d;
+  }
+}

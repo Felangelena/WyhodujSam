@@ -1,0 +1,326 @@
+@media (max-width: 1023px) {
+
+  h1 {
+    margin-top: 35px;
+    font-size: 34px;
+  }
+
+  .garden__tabs {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .garden__tab {
+    font-size: 21px;
+    margin: 0 30px;
+  }
+
+  .garden__content {
+    padding: 0px;
+    align-items: center;
+    margin-top: 58px;
+    margin-bottom: 30px;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .diagrams__tabs {
+    width: 90vw;
+    top: -125px;
+    left: -48px;
+  }
+
+  .diagrams__tab {
+    font-size: 15px;
+  }
+
+  h2.title {
+    display: inline-block;
+    margin-top: 55px;
+    font-size: 24px;
+
+    &_deliver {
+      font-size: 34px;
+      margin-top: 0px;
+      align-self: start;
+      margin-left: 25px;
+    }
+  }
+
+  .list {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 710px;
+    border-radius: 16px;
+    padding: 12px 30px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .arrow {
+    font-size: 40px;
+  }
+
+  .list_crops {
+    margin-left: -13px;
+  }
+
+  .crops {
+    width: 710px;
+    border-radius: 25px;
+    padding-left: 12px;
+  }
+
+  .crops__box {
+    position: relative;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .crops__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search__vegetable {
+    width: 473px;
+    height: 58px;
+    margin-top: 27px;
+    font-size: 15px;
+    padding: 20px 25px;
+  }
+
+  .vegatable__info {
+    width: 473px;
+    margin-top: 25px;
+    margin-bottom: 38px;
+  }
+
+  .vegatable__info__img {
+    width: 75px;
+    margin-left: 10px;
+  }
+
+  .vegatable__info__descr {
+    width: 100%;
+    margin-left: 10px;
+    padding: 18px;
+    font-size: 15px;
+  }
+
+  .slider {
+    width: 370px;
+    height: 8px;
+    border-radius: 2px;
+    margin-bottom: 23px;
+  }
+
+  .sliderContainer {
+    text-align: center;
+  }
+
+  .slider::-webkit-slider-thumb,
+  .slider::-moz-range-thumb {
+    width: 30px;
+    /* Set a specific slider handle width */
+    height: 30px;
+    /* Slider handle height */
+  }
+
+  .numCrops {
+    justify-content: center;
+
+    label {
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+
+  .numCrops__input {
+    width: 72px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-left: 50px;
+  }
+
+  .diagram {
+    position: relative;
+    left: -160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 318px;
+    height: 182px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px solid #61a47d;
+    border-radius: 16px;
+    font-size: 11px;
+    line-height: 22px;
+    margin-left: -10px;
+  }
+
+  .diagram__img {
+    margin-top: 13px;
+    width: 120px;
+    margin-left: 30px;
+  }
+
+  .statistics {
+    position: absolute;
+    justify-content: flex-start;
+    top: 398px;
+    right: 15px;
+    width: 322px;
+    height: 182px;
+    border-radius: 16px;
+
+    &__img {
+      display: none;
+    }
+
+    &__text {
+      &__title {
+        font-size: 13px;
+        margin-top: 20px;
+      }
+
+      &__info {
+        font-size: 11px;
+
+        span {
+          font-size: 19px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+
+  .btn__controls {
+    margin-top: 60px;
+    margin-bottom: 37px;
+  }
+
+  .btn__garden {
+    width: 116px;
+    height: 41px;
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  .diagrams__tab {
+    font-size: 15px;
+    margin-right: 55px;
+  }
+
+  .dropdown__box {
+    margin-right: 0px;
+  }
+
+  .dropbtn {
+    justify-content: center;
+    width: 100vw;
+    height: 82px;
+    border-radius: 0px;
+    color: #fff;
+    background: #61a47d;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .dropdown-content {
+    border: 1px solid #61A47D;
+    border-radius: 0px;
+    color: #61A47D;
+    background-color: #fff;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    font-size: 24px;
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  .arrow_down_mini {
+    font-size: 40px;
+    position: absolute;
+    right: 60px;
+  }
+
+  h2.title_shedule {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+
+  .schedule__descr {
+    margin-top: 28px;
+    width: 585px;
+
+    &__item {
+      margin-right: 44px;
+      margin-bottom: 18px;
+    }
+
+    &__box {
+      flex-direction: row;
+    }
+  }
+
+  .schedule__text {
+    font-size: 14px;
+  }
+
+  .filters {
+    left: 0px;
+    top: 0px;
+    width: 730px;
+  }
+
+  .filterVegetable {
+    margin-right: 22px;
+  }
+
+  .filter {
+    font-size: 24px;
+    width: 349px;
+    height: 60px;
+    padding: 13px 40px;
+  }
+
+  .filters .arrow {
+    font-size: 44px;
+  }
+
+  .filterVeg-content,
+  .filterMon-content {
+    width: 349px;
+  }
+
+  .filterVeg-content a,
+  .filterMon-content a {
+    font-size: 24px;
+    padding: 14px 40px;
+  }
+
+  .calendar {
+    width: 750px;
+    margin-top: 30px;
+  }
+
+  .calendar__header__years,
+  .calendar__header__months,
+  .calendar__item {
+    font-size: 7px;
+    height: 16px;
+  }
+}

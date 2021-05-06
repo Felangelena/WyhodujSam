@@ -1,0 +1,264 @@
+@media (max-width: 1023px) {
+
+  main {
+    font-size: 12px;
+  }
+
+  h1 {
+    padding-bottom: 20px;
+  }
+
+  #buyGarden {
+    margin: 0 auto;
+  }
+
+  .steps {
+    font-size: 14px;
+    width: 650px;
+    height: 60px;
+    margin-top: 9px;
+  }
+
+  .step {
+    height: 60px;
+    padding: 0 28px 0 28px;
+    margin: 0 -2px;
+  }
+
+  .localization {
+    width: 650px;
+    min-height: 430px;
+    margin-top: 19px;
+    margin-bottom: 30px;
+    padding: 15px 2px 12px 15px;
+
+    &__gallery__box {
+      width: 280px;
+    }
+
+    &__info {
+      width: 200px;
+      margin-right: 150px;
+    }
+
+    &__photo {
+      width: 125px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .steps {
+
+    &__subtitle {
+      font-size: 14px;
+      line-height: 25px;
+      margin-bottom: 18px;
+      text-align: center;
+
+      &_col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      &_green {
+        margin-left: 0px;
+        margin-top: 10px;
+      }
+
+      &_big {
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+
+    &_gallery {
+      width: 82px;
+      margin: 0 auto 10px auto;
+    }
+
+    &_green {
+      color: #61a47d;
+      margin-left: 10px;
+    }
+
+    &_big {
+      text-align: center;
+      color: #61a47d;
+      margin-top: 30px;
+      font-size: 25px;
+      font-weight: 600;
+    }
+
+    &__radiobox {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+  }
+
+  .btn {
+    width: 216px;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .localization .controls {
+    margin-top: 10px;
+  }
+
+  .demand {
+    width: 650px;
+    min-height: 445px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 20px 30px 27px 30px;
+
+    .label__descr {
+      margin-left: 0px;
+    }
+
+    .checkmark {
+      left: -22px;
+
+    }
+  }
+
+  .sliderContainer {
+    margin-top: 20px;
+  }
+
+  .demand .controls {
+    margin-top: 44px;
+  }
+
+  .prevBtn {
+    margin-right: 12px;
+  }
+
+  .dimensions {
+    width: 650px;
+    min-height: 359px;
+    margin-top: 19px;
+    margin-bottom: 30px;
+    padding: 20px 36px 14px 36px;
+
+    .area {
+      font-size: 12px;
+    }
+
+    .label__descr {
+      margin-left: 0px;
+    }
+
+    .checkmark {
+      left: -22px;
+
+    }
+  }
+
+  .dimensions .controls {
+    margin-top: 30px;
+  }
+
+
+  .label__descr {
+    margin-left: 40px;
+  }
+
+  label.container {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+
+  .checkmark {
+    top: 0px;
+    left: 15px;
+    height: 18px;
+    width: 18px;
+  }
+
+  .container .checkmark:after {
+    left: 2px;
+    top: 2px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .diagram__img {
+    margin-top: 15px;
+    width: 120px;
+  }
+
+  .addInfo {
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .slider {
+    width: 302px;
+    height: 4px;
+    margin-bottom: 30px;
+  }
+
+  .sliderContainer {
+    margin-bottom: 44px;
+  }
+
+  .numFamily__input {
+    width: 48px;
+    height: 23px;
+    padding: 3px 16px;
+    border: 1px solid #707070;
+    border-radius: 18px;
+    margin-left: 10px;
+  }
+
+  .summary {
+    font-size: 12px;
+    line-height: 23px;
+    width: 500px;
+  }
+
+  .gratingsImg {
+    width: 170px;
+    margin: 15px auto;
+  }
+
+  .congratulations .controls {
+    margin-top: 35px;
+  }
+
+  .congratulations .btn {
+    width: 250px;
+  }
+
+  .modal_win {
+    position: fixed;
+    top: 201px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    height: 280px;
+
+    .addInfo {
+      font-size: 16px;
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  .steps__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    align-items: center;
+  }
+
+}

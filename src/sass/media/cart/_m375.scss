@@ -1,0 +1,252 @@
+@media (max-width: 767px) {
+
+  .steps {
+    width: 350px;
+    height: 40px;
+    margin-top: 22px;
+    font-size: 9px;
+    border-radius: 26px;
+
+  }
+
+  .step {
+    height: 40px;
+    padding: 0 28px 0 28px;
+    margin: 0 0;
+  }
+
+  .products {
+    width: 350px;
+    min-height: 300px;
+    padding: 22px 53px 34px 52px;
+    margin-bottom: 21px;
+  }
+
+  .products__header {
+    font-size: 12px;
+  }
+
+  .products__item {
+    margin-top: 11px;
+    padding-top: 14px;
+  }
+
+  .round {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .products__name {
+    font-size: 9px;
+    margin-bottom: 15px;
+  }
+
+  .del {
+    font-size: 7px;
+
+    img {
+      width: 10px;
+      margin-right: 5px;
+    }
+  }
+
+  .products__amount {
+    font-size: 10px;
+  }
+
+  .products__price {
+    font-size: 10px;
+  }
+
+  .products__sum {
+    width: 350px;
+    height: 170px;
+    padding: 18px 30px 20px 20px;
+  }
+
+  .products__sum__item {
+    margin-bottom: 20px;
+  }
+
+  .products__sum__descr {
+    font-size: 20px;
+  }
+
+  .products__sum__amount {
+    font-size: 20px;
+  }
+
+
+  .deliver__personalData {
+    width: 350px;
+    min-height: 360px;
+    padding: 18px 28px 10px 18px;
+  }
+
+  .header {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+
+  .header__num {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+  }
+
+  .radiobox__type {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .design {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .deliver__personalData .text {
+    font-size: 9px;
+  }
+
+  .deliver__personalData label {
+    font-size: 10px;
+  }
+
+  .deliver__personalData input {
+    font-size: 10px;
+    padding: 7px 0 7px 0;
+    margin-bottom: 12px;
+  }
+
+  .agree {
+    margin-top: 15px;
+  }
+
+  .deliver__personalData {
+    .agree__label {
+      padding-left: 28px;
+      padding-top: 0px;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+
+  }
+
+  .checkmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+
+  .checkmark::after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+  }
+
+  .deliver__courier {
+    width: 350px;
+    min-height: 200px;
+  }
+
+  .deliver__subtitle {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .radiobox__courier label {
+    font-size: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .radiobox__courier .price {
+    margin-left: 150px;
+  }
+
+  .deliver__payment {
+    width: 350px;
+    min-height: 200px;
+  }
+
+  .deliver__sum {
+    width: 350px;
+    min-height: 200px;
+  }
+
+  .list__header {
+    font-size: 12px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 17px;
+  }
+
+  .list__item {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .list__img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+
+  .summary {
+    margin-top: 15px;
+  }
+
+  .summary__info {
+    font-size: 12px;
+  }
+
+  .summary__amount {
+    font-size: 12px;
+  }
+
+  .deliver__sum__box_top {
+    padding: 24px 35px 20px 21px;
+  }
+
+  .deliver__sum__box_middle {
+    height: 46px;
+    font-size: 12px;
+    padding: 0 35px 0 48px;
+  }
+
+  .deliver__sum__box_bottom {
+    padding: 24px 35px 20px 21px;
+  }
+
+  .agree__label {
+    padding-top: 7px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    line-height: 19px;
+    padding-left: 30px;
+  }
+
+  .nextBtn,
+  .prevBtn {
+    width: 350px;
+    height: 48px;
+    font-size: 18px;
+    margin-top: 23px;
+    border-radius: 26px;
+    margin-bottom: 30px;
+  }
+
+  .deliver__box .nextBtn,
+  .deliver__box .prevBtn {
+    margin-left: 0px;
+  }
+
+  .products__sum__box .nextBtn {
+    width: 350px;
+  }
+}

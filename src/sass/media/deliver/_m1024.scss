@@ -1,0 +1,116 @@
+@media (max-width: 1919px) {
+  main {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .deliver__wrapper {
+    margin-top: 40px;
+  }
+
+  .deliver__form {
+    width: 520px;
+    padding: 20px 20px 10px 15px;
+  }
+
+  .form {
+    &__title {
+      font-size: 12px;
+      margin-bottom: 15px;
+    }
+
+  }
+
+  .text {
+    width: 110px;
+    font-size: 10px;
+  }
+
+  .form__wrapper {
+    margin-bottom: 12px;
+  }
+
+  .form__wrapper label span.icon-IKONA-PACZKA-CZARNA {
+    font-size: 42px;
+    margin-left: 5px;
+  }
+
+  .design {
+    width: 17px;
+    height: 17px;
+  }
+
+
+  .search__text {
+    font-size: 12px;
+    margin-right: 11px;
+  }
+
+  .search__field {
+    width: 120px;
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .vegetables {
+    &__list {
+      margin-top: 20px;
+    }
+
+    &__round {
+      width: 45px;
+      height: 45px;
+
+      img {
+        display: block;
+        width: 90%;
+      }
+    }
+
+    &__name {
+      font-size: 12px;
+      margin-right: 45px;
+    }
+
+    &__count {
+      font-size: 12px;
+      margin-right: 215px;
+    }
+
+    &__minus {
+      margin-right: 15px;
+    }
+  }
+
+  .round_green {
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+  }
+
+  .deliver__summary {
+    width: 260px;
+    height: 260px;
+    margin-left: 15px;
+    padding: 15px 35px 10px 35px;
+
+    &__title {
+      font-size: 12px;
+    }
+  }
+
+  .diagram__img {
+    margin-top: 35px;
+    width: 150px;
+  }
+
+  .btn__submit {
+    width: 232px;
+    height: 44px;
+    margin: 35px auto 28px auto;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,69 @@
+@media (max-width: 767px) {
+
+  .contact__text {
+    width: 330px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .contact__subtitle {
+    width: 274px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 11px;
+  }
+
+  .contact__text,
+  .contact__subtitle {
+    margin-left: 14px;
+  }
+
+  .contact__form {
+    width: 350px;
+    margin-bottom: 14px;
+  }
+
+  .form__title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .input__box label {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+
+  .input__box {
+    width: 290px;
+  }
+
+  .btn__submit {
+    width: 219px;
+    height: 44px;
+    margin: 22px auto 12px auto;
+    font-size: 14px;
+    border-radius: 22px;
+  }
+
+  .contact__info {
+    width: 347px;
+    padding: 25px 25px;
+
+    &__title {
+      font-size: 18px;
+      margin-bottom: 28px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+    }
+
+    &__descr {
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  }
+
+}

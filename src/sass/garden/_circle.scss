@@ -1,0 +1,11 @@
+.diagram__img__container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  transform: scale(-1, -1);
+}
+.diagram__img__container > .diagram__img__wrapper {
+  position: relative;
+}

@@ -1,0 +1,378 @@
+@media (max-width: 1780px) {
+  main {
+    font-size: 10px;
+    padding-left: 20px;
+  }
+
+  .garden__tabs {
+    width: 400px;
+    margin-top: 15px;
+  }
+
+  .garden__tab {
+    font-size: 10px;
+    margin-right: 30px;
+  }
+
+  .garden__content {
+    margin-top: 28px;
+  }
+
+  h2 {
+    &.title {
+      font-size: 15px;
+
+      &_deliver {
+        font-size: 30px;
+      }
+    }
+
+  }
+
+  .subtitle {
+    font-size: 7px;
+    top: -12px;
+    left: 150px;
+  }
+
+  .diagrams {
+    width: 400px;
+  }
+
+  .diagrams__tab {
+    font-size: 7px;
+    margin: 0 14px;
+  }
+
+  .diagrams__tabs {
+    top: -65px;
+    left: 190px;
+    width: 300px;
+  }
+
+  .diagrams__content {
+    img {
+      width: 500px;
+    }
+  }
+
+  .list {
+    width: 550px;
+    border-radius: 25px;
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+  .arrow {
+    font-size: 18px;
+  }
+
+  .crops {
+    width: 474px;
+    border-radius: 25px;
+    padding-left: 12px;
+  }
+
+  .list_crops {
+    margin-left: -12px;
+    width: 472px;
+  }
+
+  .search__vegetable {
+    width: 314px;
+    height: 26px;
+    border-radius: 24px;
+    margin-top: 15px;
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  .vegatable__info {
+    width: 314px;
+    margin-top: 11px;
+    margin-bottom: 36px;
+
+    &__img {
+      width: 25px;
+      margin-left: 5px;
+    }
+
+    &__descr {
+      width: 100%;
+      margin-left: 10px;
+      padding: 5px;
+      font-size: 10px;
+    }
+  }
+
+  .slider {
+    width: 303px;
+    height: 4px;
+    border-radius: 2px;
+    margin-bottom: 12px;
+  }
+
+  .slider::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+  }
+
+  label {
+    font-size: 10px;
+  }
+
+  .numCrops__input {
+    color: #61a47d;
+    width: 35px;
+    height: 19px;
+    padding: 4px 10px;
+    font-size: 7px;
+  }
+
+  .diagram {
+    margin-top: 18px;
+    width: 90px;
+    font-size: 10px;
+    line-height: 12px;
+
+    &__img {
+      margin-top: 13px;
+      width: 90px;
+    }
+  }
+
+  .btn__controls {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .btn__garden {
+    width: 93px;
+    padding: 5px 20px;
+    font-size: 12px;
+  }
+
+  .statistics {
+    margin-left: 10px;
+    width: 290px;
+
+    &__img {
+      width: 50px;
+      margin-top: 25px;
+    }
+
+    &__text {
+      &__title {
+        font-size: 10px;
+        margin-top: 9px;
+      }
+
+      &__info {
+        font-size: 10px;
+        margin-top: 15px;
+
+        span {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .modal__btn {
+    display: flex;
+    padding: 11px 12px;
+    font-size: 12px;
+
+    .icon {
+      font-size: 20px;
+      margin-right: 12px;
+    }
+
+    &_active {
+      width: 510px !important;
+    }
+
+  }
+
+  #flower-btn {
+    width: 135px;
+    top: 70px;
+  }
+
+  #cameras-btn {
+    width: 105px;
+    top: 118px;
+  }
+
+  .modal {
+    right: -510px;
+    width: 510px;
+
+    &_active {
+      right: 0;
+    }
+  }
+
+  #infoFlower {
+    padding: 20px 35px 50px 26px;
+    top: 90px;
+    height: calc(100% - 90px);
+  }
+
+  #infoCameras {
+    align-items: flex-start;
+    top: 140px;
+    height: calc(100% - 140px);
+    padding: 25px 40px 50px 45px;
+  }
+
+  .modal {
+    &__item {
+      margin-top: 25px;
+    }
+
+    &__descr {
+      margin-right: 30px;
+
+      &_camera {
+        margin-top: 30px;
+        margin-right: 0px;
+      }
+
+      &__title {
+        font-size: 13px;
+        margin-top: 15px;
+      }
+
+      &__text {
+        font-size: 12px;
+        margin-top: 7px;
+      }
+    }
+
+    &__img {
+      width: 250px;
+    }
+
+    &__label {
+      margin-top: 26px;
+    }
+
+    &__text {
+      font-size: 12px;
+    }
+  }
+
+  .design {
+    width: 24px;
+    height: 24px;
+  }
+
+  .modal__img_camera {
+    width: 190px;
+  }
+
+  .dropdown__box {
+    margin-right: 50px;
+  }
+
+  .dropbtn {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
+  .dropdown-content a {
+    font-size: 12px;
+  }
+
+  .table {
+    width: 782px;
+    font-size: 10px;
+  }
+
+  .table__header {
+    height: 50px;
+    padding: 17px 9px 18px 9px;
+    margin-top: 31px;
+  }
+
+  .schedule__descr {
+    margin-top: 20px;
+    width: 550px;
+
+    &__item {
+      margin-right: 30px;
+      margin-bottom: 22px;
+    }
+
+    &__box {
+      flex-direction: column;
+    }
+  }
+
+  .schedule__circle {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  .schedule__text {
+    font-size: 14px;
+  }
+
+  .filters {
+    left: 250px;
+    top: -30px;
+    width: 750px;
+  }
+
+  .filterVegetable {
+    margin-right: 28px;
+  }
+
+  h2.title_shedule {
+    font-size: 30px;
+  }
+
+  .filters {
+    width: 550px;
+  }
+
+  .filter {
+    font-size: 16px;
+    width: 258px;
+    height: 44px;
+    padding: 10px 30px;
+  }
+
+  .filters .arrow {
+    font-size: 32px;
+  }
+
+  .filterVeg-content,
+  .filterMon-content {
+    width: 258px;
+  }
+
+  .filterVeg-content a,
+  .filterMon-content a {
+    font-size: 14px;
+    padding: 12px 26px;
+  }
+
+  .calendar {
+    width: 780px;
+  }
+
+  .calendar__header__years,
+  .calendar__header__months,
+  .calendar__item {
+    font-size: 7px;
+    height: 16px;
+  }
+}
